@@ -223,8 +223,8 @@ fetch(url, popularOptions)
             }
 
             return `
-                <div class=" rounded-md bg-zinc-900 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-indigo-500/25 mx-3">
-                    <img  class="rounded-t-md" src="${anime.coverImage.large}" alt="${title}">
+                <div class=" rounded-md bg-zinc-900 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-indigo-500/25">
+                    <img  class="rounded-t-md w-full" src="${anime.coverImage.large}" alt="${title}">
                     <h2 class="text-center uppercase">${title}</h2>
                     ${airingHtml}
                 </div>
@@ -284,8 +284,8 @@ fetch(url, trendingOptions)
             }
 
             return `
-                <div class=" rounded-md bg-zinc-900 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-indigo-500/25 mx-3">
-                    <img class="rounded-t-md" src="${anime.coverImage.large}" alt="${title}">
+                <div class=" rounded-md bg-zinc-900 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-indigo-500/25">
+                    <img class="rounded-t-md w-full" src="${anime.coverImage.large}" alt="${title}">
                     <h2 class="text-center uppercase">${title}</h2>
                     ${airingHtml}
                   </div>
